@@ -1,3 +1,5 @@
+/* Primeiro carrossel */
+
 .carrossel__titulo{
     text-align: center;
     color: var(--laranja);
@@ -20,4 +22,63 @@
 .swiper-pagination{
     position: initial;
     margin: .5em 0;
+}
+
+.card{
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descricao__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descricao__titulo-livro{
+    color: var(--azul);
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto{
+    font-size: 14px;
+}
+
+.card__botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botoes{
+    margin: 0 0.5em;
+    display: flex;
+}
+
+.botoes__ancora{
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+    align-self: center;
+}
+
+/* Segundo carrossel */
+
+.vendidos{
+    padding-top: 1.5em;
+}
+
+.descricao__estrelas{
+    margin-bottom: .5em;
 }
