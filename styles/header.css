@@ -9,6 +9,7 @@
 .container{
     display: flex;
     align-items: center;
+    padding: 0 .5em;
 }
 
 .cabecalho__menu-hamburguer{
