@@ -59,19 +59,10 @@
     text-transform: uppercase;
 }
 
-.container__botao{
-    display: none;
-}
-
-.container__titulo{
-    display: none;
-}
-
-.opcoes{
-    display: none;
-}
-
-.container__texto{
+.container__botao
+,.container__titulo
+,.opcoes
+,.container__texto{
     display: none;
 }
 
